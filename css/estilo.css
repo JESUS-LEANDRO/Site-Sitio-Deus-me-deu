@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Helvetica, "trebuchet ms", sans-serif;
+  background: #fff url(../imagens/bg.png);
+  margin: 15px;
+}
+
+#container {
+  background: #ede9cc url(/imagens/bg.png) top center repeat-y;
+  margin: 0 auto;
+}
+
+#topo {
+  position: relative;
+  background: #dbcd87;
+  height: 15.4em;
+  min-height: 250px;
+}
+
+#area-logo {
+  position: absolute;
+  background: url(../imagens/Design\ sem\ nome12.png) no-repeat;
+  background-color: #fffefe;
+  width: 100%;
+  height: 250px;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.logo a {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 3;
+  background: url(../imagens/logo\ sitio\ casamento12.png) no-repeat;
+  width: 170px;
+  height: 75px;
+  text-indent: -9000px;
+}
+
+#area-menu {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: url(../imagens/topo-imagem-lateral.png) no-repeat;
+  width: 430px;
+  height: 250px;
+  z-index: 2;
+}
+
+#conteudo-menu {
+  margin-left: 90px;
+  margin-right: 15px;
+  padding-top: 15px;
+}
+#menu-locais {
+  border-bottom: 1px solid #181817;
+  border-top: 1px solid #1a1919;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 0.7em;
+  color: #181817;
+}
+#menu-locais .locais {
+  float: left;
+  line-height: 2.1em;
+}
+a {
+  text-decoration: none;
+}
+a.reserva {
+  text-transform: uppercase;
+  background: #bbaf5e;
+  color: #141413;
+  padding: 5px 10px;
+  float: right;
+}
+#menu {
+  margin-top: 15px;
+}
+ul#navegaçao {
+  float: left;
+}
+ul#navegaçao a {
+  text-transform: uppercase;
+  font-size: 0.8em;
+  padding: 5px;
+  color: #141414;
+  line-height: 30px;
+}
+ul#navegaçao a:hover {
+  background: #fbf6be;
+}
+a#reserva a:hover {
+  background: #fbf6be;
+}
+.depoimento {
+  width: 170px;
+  height: 154px;
+  float: right;
+}
+
+ul {
+  width: 0px;
+  padding: 0px;
+  list-style: none;
+}
+#area-principal {
+  float: left;
+  width: 50%;
+  padding: 15px 0px;
+  background: url(/imagens/bg-area-principal.png) top left repeat-x;
+}
+#area-lateral {
+  float: right;
+  width: 50%;
+  padding: 20px 0px;
+  background: url(/imagens/bg-area-lateral.png) top left repeat-x;
+}
+.conteudo {
+  margin: 0 auto;
+  width: 90%;
+}
+#rodape {
+  clear: both;
+  padding: 16px;
+  background: #fff url(/imagens/bg-rodape.png) repeat-x top;
+  color: #7d7640;
+}
+h2 {
+  color: #7d7640;
+  font-size: 1.1em;
+  padding: 5px 0px;
+}
+p {
+  font-size: 1em;
+  margin-bottom: 10px;
+}
+#beneficios li {
+  padding: 50px;
+  border-bottom: solid #f3efcb;
+  height: 6em;
+}
+#beneficios li a img {
+  float: left;
+  margin-right: 8px;
+}
+#beneficios li a p {
+  font-size: 0.8em;
+}
